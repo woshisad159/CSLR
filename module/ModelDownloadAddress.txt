@@ -1,0 +1,1 @@
+The provided pretraining model file(downsampling factor of 1) is too large, it is stored in other ways. Click the link to download[[download link]](https://pan.baidu.com/s/16XWbxTXAcRq_X0BeEGa2AQ), extract password is 0000. Or you can retrain a model with a downsampling factor of 1.

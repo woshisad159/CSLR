@@ -11,6 +11,10 @@ This repo holds codes of the paper: Continuous Sign Language Recognition via Tem
 - This project runs in pycharm, so you need to install pycharm
 
 - The SLR is the main function.
+
+- The code run requires a pretraining model with a downsampling factor of 1.
+
+- The provided pretraining model file(downsampling factor of 1) is too large, it is stored in other ways. Click the link to download[[download link]](https://pan.baidu.com/s/16XWbxTXAcRq_X0BeEGa2AQ), extract password is 0000. Or you can retrain a model with a downsampling factor of 1.
 ---
 ### Data Preparation
 
@@ -23,6 +27,7 @@ This repo holds codes of the paper: Continuous Sign Language Recognition via Tem
 
 We provide the pretrained models (Down-sampling factor 1) for inference,
 But the result that the models (downsampling factor 4) needs to be retrained:
+
 |  Backbone  |  Down-sampling factor 1  |  Down-sampling factor 4  |
 |            | WER on Dev | WER on Test | WER on Dev | WER on Test |
 |  --------  | ---------- | ----------- | ---------- | ----------- |
